@@ -7,6 +7,10 @@
   "dependencies": {
     "connect": "~2.14.1"
   },
+  "domains": [
+    "energy-hunt.com",
+    "www.energy-hunt.com"
+  ],
   "subdomain": "home-energy-hunt",
   "version": "0.0.0-1",
   "engines": {
