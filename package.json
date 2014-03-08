@@ -1,0 +1,15 @@
+{
+  "name": "home-energy-hunt",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "cd ../home-hunt; roots compile --compress; cp -r public ../home-hunt-deploy; cd ../home-hunt-deploy; jitsu deploy -c"
+  },
+  "dependencies": {
+    "connect": "~2.14.1"
+  },
+  "subdomain": "home-energy-hunt",
+  "version": "0.0.0-1",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
